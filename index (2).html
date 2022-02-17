@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+  <style>
+    html {
+    text-align: center;
+    background-image: url("Bg-3.png");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 40px;
+    font-family: sans-serif;
+    }
+    label {
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+    }
+    input[type=text], input[type=password] {
+      border: 3px solid red;
+      border-radius: 4px;
+      color: white;
+      background-color: black;
+      text-size: 40px;
+      resize: none;
+      height: 30px;
+    }
+    input[type=submit] {
+      color: white;
+      background-color: black;
+      cursor: pointer;
+      border: 3px solid red;
+      padding: 8px 50px;
+    }
+  </style>
+  
+  <head>
+    <title>Rogue Labs</title>
+    <link rel="icon" href="Favicon 2.0.ico">
+    <h1>Enter Credentials</h1>
+
+    <form class="passform" action="webpage.html" onsubmit="return passcheck()">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required placeholder="Password" size="30"><br>
+    <form>
+
+    <form action="webpage.html">
+    <input type="submit" value="Verify" id="verify">
+    <form>
+      
+  </head>
+  <script src="index.js"></script>
+</html>
